@@ -6,6 +6,8 @@ require (
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/emirpasic/gods v1.12.0
 	github.com/golang/protobuf v1.3.2
+	github.com/gorilla/mux v1.7.3
+	github.com/gorilla/websocket v1.4.1
 	github.com/lucas-clemente/quic-go v0.13.1
 	github.com/mattn/go-colorable v0.1.4 // indirect
 	github.com/mgutz/ansi v0.0.0-20170206155736-9520e82c474b // indirect
