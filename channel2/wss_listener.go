@@ -177,6 +177,8 @@ func (listener *wssListener) wsslistener() {
 		},
 	}
 
+	log.Info("listener.serverCert is: %s", listener.serverCert)
+
 	if err := httpServer.ListenAndServeTLS(listener.serverCert, listener.key); err != nil {
 		panic(err)
 	}
